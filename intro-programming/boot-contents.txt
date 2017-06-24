@@ -1,0 +1,10 @@
+total 23426
+-rw-r--r-- 1 root root   791023 Apr 11  2012 abi-3.2.0-23-generic
+-rw-r--r-- 1 root root   140279 Apr 11  2012 config-3.2.0-23-generic
+drwxr-xr-x 3 root root     5120 Sep 14  2012 grub
+-rw-r--r-- 1 root root 14731890 Sep 14  2012 initrd.img-3.2.0-23-generic
+drwxr-xr-x 2 root root    12288 Sep 14  2012 lost+found
+-rw-r--r-- 1 root root   176764 Nov 27  2011 memtest86+.bin
+-rw-r--r-- 1 root root   178944 Nov 27  2011 memtest86+_multiboot.bin
+-rw------- 1 root root  2884358 Apr 11  2012 System.map-3.2.0-23-generic
+-rw------- 1 root root  4965840 Apr 11  2012 vmlinuz-3.2.0-23-generic
