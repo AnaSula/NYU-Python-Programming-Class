@@ -1,0 +1,57 @@
+total 1248
+drwxr-xr-x  2 root root   4096 Sep 14  2012 apparmor
+lrwxrwxrwx  1 root root     21 Sep 14  2012 cpp -> /etc/alternatives/cpp
+drwxr-xr-x  3 root root   4096 Sep 14  2012 crda
+drwxr-xr-x 61 root root  12288 Sep 14  2012 firmware
+drwxr-xr-x  2 root root   4096 Sep 14  2012 hdparm
+drwxr-xr-x  2 root root   4096 Sep 14  2012 init
+-rwxr-xr-x  1 root root  70680 Mar 30  2012 klibc-bhN-zLH5wUTKSCGch2ba2xqTtLE.so
+-rw-r--r--  1 root root  18704 Dec  4  2011 libdevmapper-event.so.1.02.1
+-rw-r--r--  1 root root 143296 Dec  4  2011 libdevmapper.so.1.02.1
+lrwxrwxrwx  1 root root     16 Mar  2  2012 libfuse.so.2 -> libfuse.so.2.8.6
+-rw-r--r--  1 root root 217544 Mar  2  2012 libfuse.so.2.8.6
+lrwxrwxrwx  1 root root     19 Dec 16  2011 libgssglue.so.1 -> libgssglue.so.1.0.0
+-rw-r--r--  1 root root  39584 Dec 16  2011 libgssglue.so.1.0.0
+lrwxrwxrwx  1 root root     17 Dec  9  2011 libip4tc.so.0 -> libip4tc.so.0.0.0
+-rw-r--r--  1 root root  27288 Dec  9  2011 libip4tc.so.0.0.0
+lrwxrwxrwx  1 root root     17 Dec  9  2011 libip6tc.so.0 -> libip6tc.so.0.0.0
+-rw-r--r--  1 root root  31416 Dec  9  2011 libip6tc.so.0.0.0
+lrwxrwxrwx  1 root root     19 Dec  9  2011 libipq_pic.so.0 -> libipq_pic.so.0.0.0
+-rw-r--r--  1 root root  10568 Dec  9  2011 libipq_pic.so.0.0.0
+lrwxrwxrwx  1 root root     15 Dec  9  2011 libipq.so.0 -> libipq.so.0.0.0
+-rw-r--r--  1 root root  10568 Dec  9  2011 libipq.so.0.0.0
+lrwxrwxrwx  1 root root     16 Dec  9  2011 libiptc.so.0 -> libiptc.so.0.0.0
+-rw-r--r--  1 root root   5848 Dec  9  2011 libiptc.so.0.0.0
+lrwxrwxrwx  1 root root     18 Feb  9  2012 libnewt.so.0.52 -> libnewt.so.0.52.11
+-rw-r--r--  1 root root  93976 Feb  9  2012 libnewt.so.0.52.11
+drwxr-xr-x  2 root root   4096 Sep 14  2012 libnfsidmap
+lrwxrwxrwx  1 root root     20 Apr 19  2012 libnfsidmap.so.0 -> libnfsidmap.so.0.3.0
+-rw-r--r--  1 root root  26768 Apr 19  2012 libnfsidmap.so.0.3.0
+lrwxrwxrwx  1 root root     18 Apr  2  2012 libnl-3.so.200 -> libnl-3.so.200.3.0
+-rw-r--r--  1 root root  96912 Apr  2  2012 libnl-3.so.200.3.0
+lrwxrwxrwx  1 root root     23 Apr  2  2012 libnl-genl-3.so.200 -> libnl-genl-3.so.200.3.0
+-rw-r--r--  1 root root  19504 Apr  2  2012 libnl-genl-3.so.200.3.0
+lrwxrwxrwx  1 root root     27 Apr 13  2012 libply-boot-client.so.2 -> libply-boot-client.so.2.0.0
+-rw-r--r--  1 root root  18592 Apr 13  2012 libply-boot-client.so.2.0.0
+lrwxrwxrwx  1 root root     15 Apr 13  2012 libply.so.2 -> libply.so.2.0.0
+-rw-r--r--  1 root root  89136 Apr 13  2012 libply.so.2.0.0
+lrwxrwxrwx  1 root root     27 Apr 13  2012 libply-splash-core.so.2 -> libply-splash-core.so.2.0.0
+-rw-r--r--  1 root root  68464 Apr 13  2012 libply-splash-core.so.2.0.0
+lrwxrwxrwx  1 root root     31 Apr 13  2012 libply-splash-graphics.so.2 -> libply-splash-graphics.so.2.0.0
+-rw-r--r--  1 root root  35352 Apr 13  2012 libply-splash-graphics.so.2.0.0
+-rw-r--r--  1 root root  76712 Dec 12  2011 libproc-3.2.8.so
+lrwxrwxrwx  1 root root     20 Mar  2  2012 libulockmgr.so.1 -> libulockmgr.so.1.0.1
+-rw-r--r--  1 root root  10416 Mar  2  2012 libulockmgr.so.1.0.1
+lrwxrwxrwx  1 root root     19 Dec  9  2011 libxtables.so.7 -> libxtables.so.7.0.0
+-rw-r--r--  1 root root  47632 Dec  9  2011 libxtables.so.7.0.0
+drwxr-xr-x  2 root root   4096 Sep 14  2012 lsb
+drwxr-xr-x  4 root root   4096 Sep 14  2012 modules
+drwxr-xr-x  4 root root   4096 Sep 14  2012 plymouth
+drwxr-xr-x  3 root root   4096 Sep 14  2012 recovery-mode
+drwxr-xr-x  2 root root   4096 Sep 14  2012 resolvconf
+drwxr-xr-x  3 root root   4096 Sep 14  2012 systemd
+drwxr-xr-x 15 root root   4096 Sep 14  2012 terminfo
+drwxr-xr-x  5 root root   4096 Sep 14  2012 udev
+drwxr-xr-x  2 root root   4096 Sep 14  2012 ufw
+drwxr-xr-x  3 root root  12288 Sep 14  2012 x86_64-linux-gnu
+drwxr-xr-x  2 root root   4096 Sep 14  2012 xtables

@@ -1,0 +1,9 @@
+total 48
+drwxr-xr-x  2 root root 20480 Jun  7 02:24 bin
+drwxr-xr-x  2 root root  4096 Apr 19  2012 games
+drwxr-xr-x 32 root root  4096 Sep 14  2012 include
+drwxr-xr-x 49 root root  4096 Jun  7 02:24 lib
+drwxr-xr-x 10 root root  4096 Sep 14  2012 local
+drwxr-xr-x  2 root root  4096 Sep 14  2012 sbin
+drwxr-xr-x 93 root root  4096 Jun  7 02:24 share
+drwxr-xr-x  4 root root  4096 Sep 14  2012 src

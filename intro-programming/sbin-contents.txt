@@ -1,0 +1,208 @@
+total 8056
+-rwxr-xr-x 1 root root     6272 Dec 25  2009 acpi_available
+-rwxr-xr-x 2 root root    32048 Mar 30  2012 agetty
+-rwxr-xr-x 1 root root     6296 Dec 25  2009 apm_available
+-rwxr-xr-x 1 root root   795184 Apr 12  2012 apparmor_parser
+-rwxr-xr-x 1 root root    27120 Mar 30  2012 badblocks
+-rwxr-xr-x 1 root root    31496 Mar 30  2012 blkid
+-rwxr-xr-x 1 root root    18696 Mar 30  2012 blockdev
+-rwxr-xr-x 1 root root    19168 Apr 14  2012 bootlogd
+-rwxr-xr-x 1 root root    54328 Mar 30  2012 cfdisk
+-rwxr-xr-x 1 root root    14680 Jan 24  2012 crda
+-rwxr-xr-x 1 root root     6248 Mar 30  2012 ctrlaltdel
+-rwxr-xr-x 1 root root   104160 Mar 30  2012 debugfs
+-rwxr-xr-x 1 root root    72208 Nov 20  2011 depmod
+-rwxr-xr-x 1 root root   551704 Apr 10  2012 dhclient
+lrwxrwxrwx 1 root root        8 Apr 10  2012 dhclient3 -> dhclient
+-rwxr-xr-x 1 root root    12527 Apr 10  2012 dhclient-script
+-rwxr-xr-x 1 root root    58704 Dec  4  2011 dmsetup
+-rwxr-xr-x 1 root root    51560 Dec 19  2011 dosfsck
+-rwxr-xr-x 1 root root    51560 Dec 19  2011 dosfslabel
+-rwxr-xr-x 1 root root    18928 Mar 30  2012 dumpe2fs
+-rwxr-xr-x 1 root root   233448 Mar 30  2012 e2fsck
+-rwxr-xr-x 1 root root    23056 Mar 30  2012 e2image
+lrwxrwxrwx 1 root root        7 Mar 30  2012 e2label -> tune2fs
+-rwxr-xr-x 1 root root    10552 Mar 30  2012 e2undo
+-rwxr-xr-x 1 root root    99448 Mar 30  2012 fdisk
+-rwxr-xr-x 1 root root     6256 Mar 30  2012 findfs
+-rwxr-xr-x 1 root root    11378 Dec  4  2011 fsadm
+-rwxr-xr-x 1 root root    31568 Mar 30  2012 fsck
+-rwxr-xr-x 1 root root    14592 Mar 30  2012 fsck.cramfs
+lrwxrwxrwx 1 root root        6 Mar 30  2012 fsck.ext2 -> e2fsck
+lrwxrwxrwx 1 root root        6 Mar 30  2012 fsck.ext3 -> e2fsck
+lrwxrwxrwx 1 root root        6 Mar 30  2012 fsck.ext4 -> e2fsck
+lrwxrwxrwx 1 root root        6 Mar 30  2012 fsck.ext4dev -> e2fsck
+-rwxr-xr-x 1 root root    31160 Mar 30  2012 fsck.minix
+lrwxrwxrwx 1 root root        7 Dec 19  2011 fsck.msdos -> dosfsck
+-rwxr-xr-x 1 root root      333 Apr 14  2012 fsck.nfs
+lrwxrwxrwx 1 root root        7 Dec 19  2011 fsck.vfat -> dosfsck
+-rwxr-xr-x 1 root root    10400 Mar 30  2012 fsfreeze
+-rwxr-xr-x 1 root root     6224 Apr 14  2012 fstab-decode
+-rwxr-xr-x 1 root root    14568 Mar 30  2012 fstrim
+-rwxr-xr-x 2 root root    32048 Mar 30  2012 getty
+lrwxrwxrwx 1 root root        6 Apr 16  2012 halt -> reboot
+-rwxr-xr-x 1 root root    98912 Mar 24  2012 hdparm
+-rwxr-xr-x 1 root root    35344 Mar 30  2012 hwclock
+-rwxr-xr-x 1 root root    72320 Mar 31  2012 ifconfig
+-rwxr-xr-x 3 root root    53168 Apr  5  2012 ifdown
+-rwxr-xr-x 3 root root    53168 Apr  5  2012 ifquery
+-rwxr-xr-x 3 root root    53168 Apr  5  2012 ifup
+-rwxr-xr-x 1 root root   163096 Apr 16  2012 init
+-rwxr-xr-x 1 root root   155512 Apr 16  2012 initctl
+-rwxr-xr-x 1 root root    14576 Nov 20  2011 insmod
+-rwxr-xr-x 1 root root     2382 Mar 29  2012 installkernel
+lrwxrwxrwx 1 root root        7 Apr  9  2012 ip -> /bin/ip
+lrwxrwxrwx 1 root root       13 Dec  9  2011 ip6tables -> xtables-multi
+lrwxrwxrwx 1 root root       13 Dec  9  2011 ip6tables-restore -> xtables-multi
+lrwxrwxrwx 1 root root       13 Dec  9  2011 ip6tables-save -> xtables-multi
+-rwxr-xr-x 1 root root    18712 Mar 31  2012 ipmaddr
+lrwxrwxrwx 1 root root       13 Dec  9  2011 iptables -> xtables-multi
+lrwxrwxrwx 1 root root       13 Dec  9  2011 iptables-restore -> xtables-multi
+lrwxrwxrwx 1 root root       13 Dec  9  2011 iptables-save -> xtables-multi
+-rwxr-xr-x 1 root root    22824 Mar 31  2012 iptunnel
+-rwxr-xr-x 1 root root    14568 Mar 30  2012 isosize
+-rwxr-xr-x 1 root root    10464 Mar 31  2012 kbdrate
+-rwxr-xr-x 1 root root    18912 Apr 14  2012 killall5
+-rwxr-xr-x 1 root root      465 Apr 20  2012 ldconfig
+-rwxr-xr-x 1 root root   975208 Apr 20  2012 ldconfig.real
+-rwxr-xr-x 1 root root    10496 Mar 30  2012 logsave
+-rwxr-xr-x 1 root root    43536 Mar 30  2012 losetup
+lrwxrwxrwx 1 root root       10 Nov 20  2011 lsmod -> /bin/lsmod
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvchange -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvconvert -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvcreate -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvdisplay -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvextend -> lvm
+-rwxr-xr-x 1 root root   732584 Dec  4  2011 lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvmchange -> lvm
+-rwxr-xr-x 1 root root     6691 Dec  4  2011 lvmconf
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvmdiskscan -> lvm
+-rwxr-xr-x 1 root root     5854 Dec  4  2011 lvmdump
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvmsadc -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvmsar -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvreduce -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvremove -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvrename -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvresize -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvs -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 lvscan -> lvm
+-rwxr-xr-x 1 root root    52466 Feb  2  2012 MAKEDEV
+-rwxr-xr-x 1 root root    15128 Mar 31  2012 mii-tool
+-rwxr-xr-x 1 root root    27504 Dec 19  2011 mkdosfs
+-rwxr-xr-x 1 root root    89608 Mar 30  2012 mke2fs
+-rwxr-xr-x 1 root root    10392 Mar 30  2012 mkfs
+-rwxr-xr-x 1 root root    18688 Mar 30  2012 mkfs.bfs
+-rwxr-xr-x 1 root root    31168 Mar 30  2012 mkfs.cramfs
+lrwxrwxrwx 1 root root        6 Mar 30  2012 mkfs.ext2 -> mke2fs
+lrwxrwxrwx 1 root root        6 Mar 30  2012 mkfs.ext3 -> mke2fs
+lrwxrwxrwx 1 root root        6 Mar 30  2012 mkfs.ext4 -> mke2fs
+lrwxrwxrwx 1 root root        6 Mar 30  2012 mkfs.ext4dev -> mke2fs
+-rwxr-xr-x 1 root root    27104 Mar 30  2012 mkfs.minix
+lrwxrwxrwx 1 root root        7 Dec 19  2011 mkfs.msdos -> mkdosfs
+lrwxrwxrwx 1 root root        6 Mar  5  2012 mkfs.ntfs -> mkntfs
+lrwxrwxrwx 1 root root        7 Dec 19  2011 mkfs.vfat -> mkdosfs
+-rwxr-xr-x 1 root root    18736 Feb  9  2012 mkhomedir_helper
+-rwxr-xr-x 1 root root    79976 Mar  5  2012 mkntfs
+-rwxr-xr-x 1 root root    23064 Mar 30  2012 mkswap
+-rwxr-xr-x 1 root root    31064 Apr 12  2012 mntctl
+-rwxr-xr-x 1 root root    31056 Nov 20  2011 modinfo
+-rwxr-xr-x 1 root root    59976 Nov 20  2011 modprobe
+-rwxr-xr-x 1 root root   100824 Apr 12  2012 mountall
+-rwxr-xr-x 1 root root    10400 Mar  2  2012 mount.fuse
+lrwxrwxrwx 1 root root       15 Mar  5  2012 mount.lowntfs-3g -> /bin/lowntfs-3g
+-rwsr-xr-x 1 root root   102896 Apr  9  2012 mount.nfs
+lrwxrwxrwx 1 root root        9 Apr  9  2012 mount.nfs4 -> mount.nfs
+lrwxrwxrwx 1 root root       13 Mar  5  2012 mount.ntfs -> mount.ntfs-3g
+lrwxrwxrwx 1 root root       12 Mar  5  2012 mount.ntfs-3g -> /bin/ntfs-3g
+lrwxrwxrwx 1 root root       40 Sep 14  2012 mount.vboxsf -> /usr/lib/VBoxGuestAdditions/mount.vboxsf
+-rwxr-xr-x 1 root root    14768 Mar 31  2012 nameif
+-rwxr-xr-x 1 root root    14576 Dec  9  2011 nfnl_osf
+-rwxr-xr-x 1 root root    55392 Mar  5  2012 ntfsclone
+-rwxr-xr-x 1 root root    30816 Mar  5  2012 ntfscp
+-rwxr-xr-x 1 root root    26720 Mar  5  2012 ntfslabel
+-rwxr-xr-x 1 root root    71784 Mar  5  2012 ntfsresize
+-rwxr-xr-x 1 root root    47200 Mar  5  2012 ntfsundelete
+-rwxr-xr-x 1 root root     2251 Dec  2  2009 on_ac_power
+-rwxr-xr-x 1 root root    10464 Feb  9  2012 pam_tally
+-rwxr-xr-x 1 root root    10512 Feb  9  2012 pam_tally2
+-rwxr-xr-x 1 root root    81240 Mar 20  2012 parted
+-rwxr-xr-x 1 root root    10448 Mar 20  2012 partprobe
+-rwxr-xr-x 1 root root     6200 Mar 30  2012 pivot_root
+-rwxr-xr-x 1 root root    10400 Mar 31  2012 plipconfig
+-rwxr-xr-x 1 root root    64752 Apr 13  2012 plymouthd
+lrwxrwxrwx 1 root root        6 Apr 16  2012 poweroff -> reboot
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvchange -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvck -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvcreate -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvdisplay -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvmove -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvremove -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvresize -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvs -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 pvscan -> lvm
+-rwxr-xr-x 1 root root    29976 Mar 31  2012 rarp
+-rwxr-xr-x 1 root root    10384 Mar 30  2012 raw
+-rwxr-xr-x 1 root root    14728 Apr 16  2012 reboot
+-rwxr-xr-x 1 root root    10456 Jan 24  2012 regdbdump
+lrwxrwxrwx 1 root root        7 Apr 16  2012 reload -> initctl
+-rwxr-xr-x 1 root root    43952 Mar 30  2012 resize2fs
+-rwxr-xr-x 1 root root     5637 Mar 29  2012 resolvconf
+lrwxrwxrwx 1 root root        7 Apr 16  2012 restart -> initctl
+-rwxr-xr-x 1 root root    14616 Nov 20  2011 rmmod
+-rwxr-xr-x 1 root root    57984 Mar 31  2012 route
+-rwxr-xr-x 1 root root    48120 May 31  2012 rpcbind
+-rwxr-xr-x 1 root root    77616 Apr  9  2012 rpc.statd
+-rwxr-xr-x 1 root root    35296 Apr  9  2012 rtacct
+-rwxr-xr-x 1 root root    35216 Apr  9  2012 rtmon
+-rwxr-xr-x 1 root root    10192 Apr 16  2012 runlevel
+-rwxr-xr-x 1 root root    10456 Mar 31  2012 setvtrgb
+-rwxr-xr-x 1 root root    61816 Mar 30  2012 sfdisk
+-rwxr-xr-x 1 root root      879 Apr  9  2012 shadowconfig
+-rwxr-xr-x 1 root root    19144 Apr  9  2012 showmount
+-rwxr-xr-x 1 root root    60280 Apr 16  2012 shutdown
+-rwxr-xr-x 1 root root    34112 Mar 31  2012 slattach
+-rwxr-xr-x 1 root root    52272 Apr  9  2012 sm-notify
+lrwxrwxrwx 1 root root        7 Apr 16  2012 start -> initctl
+-rwxr-xr-x 1 root root    31424 Apr 14  2012 startpar
+-rwxr-xr-x 1 root root    28144 Apr 12  2012 start-stop-daemon
+lrwxrwxrwx 1 root root        7 Apr 16  2012 status -> initctl
+lrwxrwxrwx 1 root root        7 Apr 16  2012 stop -> initctl
+-rwxr-xr-x 1 root root    14816 Apr 14  2012 sulogin
+-rwxr-xr-x 1 root root    14616 Mar 30  2012 swaplabel
+lrwxrwxrwx 1 root root        6 Mar 30  2012 swapoff -> swapon
+-rwxr-xr-x 1 root root    27192 Mar 30  2012 swapon
+-rwxr-xr-x 1 root root    10504 Mar 30  2012 switch_root
+-rwxr-xr-x 1 root root    14656 Dec 12  2011 sysctl
+-rwxr-xr-x 1 root root   261096 Apr  9  2012 tc
+-rwxr-xr-x 1 root root    51416 Apr 16  2012 telinit
+-rwxr-xr-x 1 root root    68904 Mar 30  2012 tune2fs
+-rwxr-xr-x 1 root root   137232 Apr  5  2012 udevadm
+-rwxr-xr-x 1 root root   137304 Apr  5  2012 udevd
+lrwxrwxrwx 1 root root        9 Apr  9  2012 umount.nfs -> mount.nfs
+lrwxrwxrwx 1 root root        9 Apr  9  2012 umount.nfs4 -> mount.nfs
+-rwxr-sr-x 1 root shadow  35432 Feb  9  2012 unix_chkpwd
+-rwxr-xr-x 1 root root    31296 Feb  9  2012 unix_update
+-rwxr-xr-x 1 root root   108744 Apr 16  2012 upstart-socket-bridge
+-rwxr-xr-x 1 root root    51424 Apr 16  2012 upstart-udev-bridge
+-rwxr-xr-x 1 root root    47392 Feb  4  2012 ureadahead
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgcfgbackup -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgcfgrestore -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgchange -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgck -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgconvert -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgcreate -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgdisplay -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgexport -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgextend -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgimport -> lvm
+-rwxr-xr-x 1 root root    10352 Dec  4  2011 vgimportclone
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgmerge -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgmknodes -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgreduce -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgremove -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgrename -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgs -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgscan -> lvm
+lrwxrwxrwx 1 root root        3 Dec  4  2011 vgsplit -> lvm
+-rwxr-xr-x 1 root root    18808 Mar 30  2012 wipefs
+-rwxr-xr-x 1 root root    87592 Dec  9  2011 xtables-multi

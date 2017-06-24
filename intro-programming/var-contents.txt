@@ -1,0 +1,12 @@
+total 36
+drwxr-xr-x  2 root root  4096 Apr 19  2012 backups
+drwxr-xr-x  8 root root  4096 Jun  7 02:24 cache
+drwxr-xr-x 35 root root  4096 Sep 14  2012 lib
+drwxrwsr-x  2 root staff 4096 Apr 19  2012 local
+lrwxrwxrwx  1 root root     9 Sep 14  2012 lock -> /run/lock
+drwxr-xr-x  9 root root  4096 Jun  4 01:10 log
+drwxrwsr-x  2 root mail  4096 Sep 14  2012 mail
+drwxr-xr-x  2 root root  4096 Sep 14  2012 opt
+lrwxrwxrwx  1 root root     4 Sep 14  2012 run -> /run
+drwxr-xr-x  5 root root  4096 Sep 14  2012 spool
+drwxrwxrwt  2 root root  4096 Apr 19  2012 tmp
