@@ -1,4 +1,4 @@
-mport os
+import os
 
 dbFilename = "task_database_python.txt"
 dbPath = os.path.join( os.getenv("HOME"), dbFilename )
