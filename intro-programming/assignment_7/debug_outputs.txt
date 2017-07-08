@@ -1,0 +1,80 @@
+Debug force_from_gravity function
+
+Anas-MacBook-Pro:desktop AnaS$ python3 debugging.py 
+> /Users/AnaS/Desktop/debugging.py(34)force_from_gravity()
+-> return (GRAVITON * mass_one * mass_two) / (distance * distance)
+(Pdb) c
+Traceback (most recent call last):
+  File "debugging.py", line 93, in <module>
+    attraction = force_from_gravity(EARTH['mass'], SUN_MASS, EARTH['orbital_radius'])
+  File "debugging.py", line 34, in force_from_gravity
+    return (GRAVITON * mass_one * mass_two) / (distance * distance)
+NameError: name 'GRAVITON' is not defined
+
+
+Debug time_until_destination function
+
+> /Users/AnaS/Desktop/debugging.py(45)time_until_destination()
+-> acceleration = engine_force / ship_mass
+(Pdb) c
+Traceback (most recent call last):
+  File "debugging.py", line 101, in <module>
+    transit_time = get_transit_time(SATURN_ORBITAL_RADIUS)
+  File "debugging.py", line 88, in get_transit_time
+    return full_time
+UnboundLocalError: local variable 'full_time' referenced before assignment
+
+
+Debug get_transit_time function
+
+> /Users/AnaS/Desktop/debugging.py(88)get_transit_time()
+-> simplified_distance = math.fabs(target_solar_orbit_radius - EARTH['orbital_radius'])
+(Pdb) c
+
+
+Debug get_readable_time
+
+> /Users/AnaS/Desktop/debugging.py(65)get_readable_time()
+-> remaining_seconds = seconds
+(Pdb) c
+Traceback (most recent call last):
+  File "debugging.py", line 107, in <module>
+    readable_transit = get_readable_time(transit_time)
+  File "debugging.py", line 65, in get_readable_time
+    remaining_seconds = seconds
+NameError: name 'days' is not defined
+
+Couldn't find easily where the exactly the error was happening so had to use n(ext) argument to Pdb to execute line by line until I found the place of error:
+
+> /Users/AnaS/Desktop/debugging.py(65)get_readable_time()
+-> remaining_seconds = seconds
+(Pdb) w
+  /Users/AnaS/Desktop/debugging.py(107)<module>()
+-> readable_transit = get_readable_time(transit_time)
+> /Users/AnaS/Desktop/debugging.py(65)get_readable_time()
+-> remaining_seconds = seconds
+(Pdb) n
+> /Users/AnaS/Desktop/debugging.py(66)get_readable_time()
+-> result = {}
+(Pdb) n
+> /Users/AnaS/Desktop/debugging.py(67)get_readable_time()
+-> while True:
+(Pdb) n
+> /Users/AnaS/Desktop/debugging.py(68)get_readable_time()
+-> if remaining_seconds > SECONDS_CONVERSION['years']:
+(Pdb) n
+> /Users/AnaS/Desktop/debugging.py(69)get_readable_time()
+-> result['years'] = math.floor(remaining_seconds / SECONDS_CONVERSION['years'])
+(Pdb) n
+> /Users/AnaS/Desktop/debugging.py(70)get_readable_time()
+-> remaining_seconds -= result['years'] * SECONDS_CONVERSION['years']
+(Pdb) n
+> /Users/AnaS/Desktop/debugging.py(68)get_readable_time()
+-> if remaining_seconds > SECONDS_CONVERSION['years']:
+(Pdb) n
+> /Users/AnaS/Desktop/debugging.py(71)get_readable_time()
+-> elif remaining_seconds > SECONDS_CONVERSION[days]:
+(Pdb) n
+NameError: name 'days' is not defined
+> /Users/AnaS/Desktop/debugging.py(71)get_readable_time()
+-> elif remaining_seconds > SECONDS_CONVERSION[days]:
