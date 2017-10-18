@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <h1>Hello, You Cooking Freak!        <img src="{{url_for('static', filename='food.png')}}" height="190" width="190"></h1>
+</div>
+  <p><i>Welcome!<br><br>If you love trying out new recipies and making up your own, this is the right place for you! Here on <b>Cooking Freak</b> blog we do our best to facilitate sharing of creative recipies for food lovers (no shame in admitting, who isn't?!). </i></p>
+  <p><i>On our <b>Posts</b> page we collect all our posts which you can check out without registration. It's free! Feel free to steal all the delicious recipes you want.</i></p>
+  <p><i>Finally, if you would like to share your own awesomeness and creativity, and post a recipe on our blog, please, sign up  or log in to join the world of <b>Cooking Freak</b></i> </p>
+{% endblock %}

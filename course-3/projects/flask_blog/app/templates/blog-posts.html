@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Blog Posts{% endblock %}
+{% block body %}
+<div class="jumbotron">
+  <h1>Hello, {{ g.user.nickname}}!        <img src="{{url_for('static', filename='food.png')}}" height="190" width="190"></h1>
+</div>
+  <form action="" method="post" name="post">
+      {{ form.hidden_tag() }}
+      <table>
+          <tr>
+              <td>Post Your Recipe:  </td>
+              <td>{{ form.post(size=80, maxlength=500) }}</td>
+              <td>
+              {% for error in form.post.errors %}
+              <span style="color: red;">[{{ error }}]</span><br>
+              {% endfor %}
+              </td>
+          </tr>
+          <tr>
+              <td></td>
+              <td><input type="submit" value="Post"></td>
+              <td></td>
+          </tr>
+      </table>
+  </form>
+  {% for post in posts %}
+  <p><b>{{ post.author.nickname }} Posted on {{ post.timestamp }}</b><br>{{ post.body }}</p>
+  {% endfor %}
+{% endblock %}
+
+
+
