@@ -4,9 +4,9 @@
 
 #### To run this project successfully, you need the following modules installed:
 
-pandas\n
-numpy\n
-matplotlib\n
-plotly\n
-seaborn\n
+pandas  
+numpy  
+matplotlib  
+plotly  
+seaborn  
 scipy
